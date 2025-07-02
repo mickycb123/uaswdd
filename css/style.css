@@ -197,14 +197,14 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url();
+    background: linear-gradient(r#FFA500(24, 29, 56, .7), #FFA500(24, 29, 56, .7)), url();
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .page-header-inner {
-    background: rgba(15, 23, 43, .7);
+    background: #FFA500(15, 23, 43, .7);
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -438,3 +438,17 @@
 .text-abu {
     color: grey !important;
 }
+.dropdown-toggle::after {
+    vertical-align: 0;
+}
+
+.gallery-img {
+    width: 50%;
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+ 
+   

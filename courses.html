@@ -44,7 +44,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary text-judul"><i class="fa fa-ring me-3"></i>FLORES WEDDING ORGANIZER</h2>
+         <img class="navbar-brand img-fluid" src="img/logo-fwo.png">
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -57,10 +57,9 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</a>
                     <div class="dropdown-menu fade-down m-0">
-                        <a href="team.html" class="dropdown-item">Registry</a>
-                        <a href="testimonial.html" class="dropdown-item">Venues</a>
+                        <a href="registry.html" class="dropdown-item">Registry</a>
+                        <a href="venues.html" class="dropdown-item">Venues</a>
                         <a href="404.html" class="dropdown-item">Wedding Dress</a>
-                        <a href="404.html" class="dropdown-item">Ideas</a>
                     </div>
                 </div>
                 <a href="contact.html" class="nav-item nav-link">ContactUs</a>
@@ -72,22 +71,25 @@
 
 
     <!-- Header Start -->
-    <div class="container-fluid bg-primary  py-5 mb-5 page-header">
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Courses</h1>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Courses</li>
-                        </ol>
-                    </nav>
+    <style>
+                    .breadcrumb-section {
+                        background-image: url('img/weding.1jpg.jpg');
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        padding: 300px 0;
+                        color: white;
+                        text-align: center;
+                    }
+                </style>
+                    <div class="breadcrumb-section">
+                    <div class="container">
+                        <div class="breadcrumb-text">
+                            
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
+                    </div>
     <!-- Header End -->
 
 
@@ -95,54 +97,103 @@
     <div class="container-xxl py-5 category">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Categories</h6>
-                <h1 class="mb-5">Courses Categories</h1>
+                <h6 class="section-title bg-white text-center text-primary px-3">Wedding Flores</h6>
+                <h1 class="mb-5">Memories from our happiest clients</h1>
             </div>
-            <div class="row g-3">
-                <div class="col-lg-7 col-md-6">
-                    <div class="row g-3">
-                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                            <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="img/cat-1.jpg" alt="">
-                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                                    <h5 class="m-0">Web Design</h5>
-                                    <small class="text-primary">49 Courses</small>
-                                </div>
-                            </a>
+                                <style>
+                        body {
+                        margin: 0;
+                        font-family: 'Segoe UI', sans-serif;
+                        background-color: #fff;
+                        }
+
+                        header {
+                        background-color: #fce6ef;
+                        padding: 40px 0;
+                        text-align: center;
+                        }
+
+                        header h1 {
+                        color: #d96b9a;
+                        font-size: 36px;
+                        margin-bottom: 10px;
+                        }
+
+                        .gallery-container {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                        gap: 20px;
+                        padding: 40px;
+                        max-width: 1200px;
+                        margin: auto;
+                        }
+
+                        .gallery-item {
+                        overflow: hidden;
+                        border-radius: 12px;
+                        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                        }
+
+                        .gallery-item img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        transition: transform 0.3s ease;
+                        }
+
+                        .gallery-item:hover img {
+                        transform: scale(1.05);
+                        }
+
+                        footer {
+                        background-color: #222;
+                        color: white;
+                        text-align: center;
+                        padding: 20px;
+                        }
+                    </style>
+                    </head>
+                    <body>
+
+                    <section class="gallery-container">
+                        <div class="gallery-item">
+                        <img src="img/gm5.jpg" alt="Wedding Moment 1">
                         </div>
-                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
-                            <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="img/cat-2.jpg" alt="">
-                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                                    <h5 class="m-0">Graphic Design</h5>
-                                    <small class="text-primary">49 Courses</small>
-                                </div>
-                            </a>
+                        <div class="gallery-item">
+                        <img src="img/ballroom.jpg" alt="Wedding Moment 2">
                         </div>
-                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
-                            <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="img/cat-3.jpg" alt="">
-                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                                    <h5 class="m-0">Video Editing</h5>
-                                    <small class="text-primary">49 Courses</small>
-                                </div>
-                            </a>
+                        <div class="gallery-item">
+                        <img src="img/canti 2.jpg" alt="Wedding Moment 3">
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
-                    <a class="position-relative d-block h-100 overflow-hidden" href="">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/cat-4.jpg" alt="" style="object-fit: cover;">
-                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
-                            <h5 class="m-0">Online Marketing</h5>
-                            <small class="text-primary">49 Courses</small>
+                        <div class="gallery-item">
+                        <img src="img/photographer.jpg" alt="Wedding Moment 4">
                         </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Categories Start -->
+                        <div class="gallery-item">
+                        <img src="img/99.jpg" alt="Wedding Moment 5">
+                        </div>
+                        <div class="gallery-item">
+                        <img src="img/A spectacular hotel offering couples opulent… (1).jpg" alt="Wedding Moment 6">
+                        </div>
+                        <div class="gallery-item">
+                        <img src="img/garden.jpg" alt="Wedding Moment 7">
+                        </div>
+                        <div class="gallery-item">
+                        <img src="img/Pennsylvania Wedding, Springton Manor Farm….jpg" alt="Wedding Moment 8">
+                        </div>
+                        <div class="gallery-item">
+                        <img src="img/Wedding-Photo-Booth-Ideas1.jpg" alt="Wedding Moment 9">
+                        </div>
+                        <div class="gallery-item">
+                        <img src="img/tht8.jpg" alt="Wedding Moment 10">
+                        </div>
+                        <div class="gallery-item">
+                        <img src="img/tht6.jpg" alt="Wedding Moment 11">
+                        </div>
+                        <div class="gallery-item">
+                        <img src="img/tht7.jpg" alt="Wedding Moment 11">
+                        </div>
+                    </section>
+                        <!-- Categories Start -->
 
 
     <!-- Courses Start -->
@@ -156,14 +207,14 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/course-1.jpg" alt="">
+                            <img class="img-fluid" src="img/ballroom.jpg" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                 <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Booking Now</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
+                            <h3 class="mb-0">IDR 100.000.00</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -172,26 +223,26 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small>(123)</small>
                             </div>
-                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                            <h5 class="mb-4">Wedding Dress & Dekorasi</h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>WO Flores</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Nght</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>100 pax</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/course-2.jpg" alt="">
+                            <img class="img-fluid" src="img/gm6.jpg" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                 <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Booking Now</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
+                            <h3 class="mb-0">IDR 20.000.000</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -200,26 +251,26 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small>(123)</small>
                             </div>
-                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                            <h5 class="mb-4">Dekorasi</h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>WO Flores</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Night</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>200 pax</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/course-3.jpg" alt="">
+                            <img class="img-fluid" src="img/cetring4.jpg" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                 <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Booking Now</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
+                            <h3 class="mb-0">15.000.000</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -228,12 +279,12 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small>(123)</small>
                             </div>
-                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                            <h5 class="mb-4">Cetring</h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>WO Flores</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>Night</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>300 pax</small>
                         </div>
                     </div>
                 </div>
@@ -303,9 +354,9 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jalan Wirajaya ,Labuan Bajo NTT</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-2"></i>Jalan Wirajaya,Labuan Bajo,NTT</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+62 82-232-119-0101</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>floreswedding</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>floreswedding@gmail.com</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -350,7 +401,7 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">FloresWedding</a>, We Ready For You.
+                        &copy; <a class="border-bottom" href="#">Flores Wedding Organizer</a>, We are Ready for You.
 
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                         <a class="border-bottom" href="https://htmlcodex.com"></a><br><br>
